@@ -24,10 +24,21 @@ For each test case, output one line containing Case #x: y, where x is the tes
 1 ≤ N ≤ 1018.
 ##### Sample
 ```
-Input 
+Input
+
+4
+132
+1000
+7
+111111111111111110
+
+Output
+
+Case #1: 129
+Case #2: 999
+Case #3: 7
+Case #4: 99999999999999999
  
-Output 
- 4 132 1000 7 111111111111111110 Case #1: 129 Case #2: 999 Case #3: 7 Case #4: 99999999999999999 
 ```
 **Note that the last sample case would not appear in the Small dataset.**
 
@@ -57,11 +68,25 @@ For each test case, output one line containing Case #x: y z, where x is the t
 1 ≤ N ≤ 1018.
 ##### Sample
 ```
-Input 
- 
-Output 
- 5 4 2 5 2 6 2 1000 1000 1000 1
- ```
+Input
+
+5
+4 2
+5 2
+6 2
+1000 1000
+1000 1
+
+Output
+
+Case #1: 1 0
+Case #2: 1 0
+Case #3: 1 1
+Case #4: 0 0
+Case #5: 500 499
+
+```
+
 
 In Case #1, the first person occupies the leftmost of the middle two stalls, leaving the following configuration (Ostands for an occupied stall and . for an empty one): O.O..O. Then, the second and last person occupies the stall immediately to the right, leaving 1 empty stall on one side and none on the other.
 
